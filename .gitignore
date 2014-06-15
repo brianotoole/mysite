@@ -1,0 +1,4 @@
+#ignore the following
+.htaccess
+wp-config.php
+.DS_Store
