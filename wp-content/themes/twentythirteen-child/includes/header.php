@@ -11,10 +11,8 @@
 	<meta name="robots" content="index,follow"> 
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/main.min.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/theme.css" type="text/css" media="screen">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
 	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 

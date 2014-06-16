@@ -1,0 +1,20 @@
+/* =Theme.scss - main Sass file compiling into "../css/theme.css"
+-------------------------------------------------------------- */
+
+
+/* @import
+-------------------------------------------------------------- */
+// Base
+@import "base/global"; //global variables & mixins
+@import "base/reset";
+//@import "base/forms";
+@import "base/layout";
+
+// Partials 
+@import "partials/grids";
+@import "partials/media"; 
+
+// Third-party
+@import "vendor/animate";
+@import "vendor/bootstrap-carousel";
+//@import "vendor/font-awesome"; TO DO: fix font-awesome vendor set up
