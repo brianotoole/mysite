@@ -3,7 +3,7 @@
 	<div class="container clearfix">
 
 			<div id="about" class="grid_12">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/bzo.png" class="animated bounceIn">
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/brian.jpg" class="animated bounceIn circle">
 			</div>
 
 			<div id="push" class="grid_12">

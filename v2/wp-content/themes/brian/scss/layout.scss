@@ -88,7 +88,7 @@ a:visited {
 
 .navigation li a:hover,.navigation li:hover {
     cursor: pointer;
-    color: #a9d3d0;
+    color: $brand-accent;
 }
 
 .navigation .active,navigation .active a {
@@ -103,7 +103,7 @@ a:visited {
 
 .navigation li a:hover {
     cursor: pointer;
-    color: #a9d3d0;
+    color: $brand-accent;
 }
 
 #wpadminbar {
@@ -156,6 +156,19 @@ a:visited {
     animation-name: bounceIn;
 }
 
+.circle{
+	background: $brand-grey;
+	padding: 5px;
+	border: 1px solid darken( $brand-grey, 2%);
+	border-radius: 100%;
+	&:hover{
+		background: darken( $brand-grey, 10%);
+		border: 1px solid darken( $brand-grey, 12%);
+		filter: grayscale(90%);
+		cursor: pointer;
+	}
+}
+
 #slide1 h1 {
     display: block;
     background: transparent url('../images/divider.png') 0 35px repeat-x;
@@ -188,7 +201,7 @@ a:visited {
 #slide1 h1 span i:after {
     content: ' . ';
     margin-left: -5px;
-    color: #e67f6c;
+    color: $brand-accent;
     font-size: .9em;
 }
 
@@ -251,14 +264,14 @@ a:visited {
 #slide2 h1 span:after {
     content: ' . ';
     margin-left: -5px;
-    color: #e67f6c;
+    color: $brand-accent;
     font-size: .9em;
 }
 
 #slide2 h3,#slide2 h3 .entry-title,.entry-title a,.entry-title a:visited {
     font-size: 1.3em;
     margin: 0;
-    color: #e67f6c!important;
+    color: $brand-accent;
     line-height: 1.1;
     padding-bottom: 0;
     font-weight: 700;
@@ -289,7 +302,7 @@ a:visited {
 a.btn-txt {
     display: block;
     padding: 10px 15px;
-    background-color: #e74c3c;
+    background-color: darken( $brand-accent, 10%);
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
@@ -302,7 +315,7 @@ a.btn-txt {
 
 a.btn-txt:hover {
     color: #fff;
-    background-color: #ec7063;
+    background-color: darken( $brand-accent, 20%);
 }
 
 .wp-post-image {
@@ -394,7 +407,7 @@ time.entry-date:after {
 #slide3 h1 span:after {
     content: ' . ';
     margin-left: -5px;
-    color: #e67f6c;
+    color: $brand-accent;
     font-size: .9em;
 }
 
@@ -456,7 +469,7 @@ time.entry-date:after {
 #slide4 h1 span:after {
     content: ' . ';
     margin-left: -5px;
-    color: #e67f6c;
+    color: $brand-accent;
     font-size: .9em;
 }
 
@@ -560,14 +573,14 @@ time.entry-date:after {
 #slide6 h1 span:after {
     content: ' . ';
     margin-left: -5px;
-    color: #e67f6c;
+    color: $brand-accent;
     font-size: .9em;
 }
 
 #slide6 h3,#slide6 h3 .entry-title,.entry-title a,.entry-title a:visited {
     font-size: 1.3em;
     margin: 0;
-    color: #e67f6c!important;
+    color: $brand-accent;
     line-height: 1.1;
     padding-bottom: 0;
     font-weight: 700;
